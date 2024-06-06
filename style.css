@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'animate.css';
+
+body{
+    background: black;
+    color: #fff;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: "Poppins";
+    margin-top: 30px;
+
+}
+.container-fluid{
+    padding: 0;
+    padding-bottom: 72px;
+    background: black;
+}
+
+.my-img{
+    border-radius: 100px;
+    width: 200px; 
+    height: 200px;
+    transition: transform 0.6s ease-in-out;
+    margin-bottom: 40px;
+
+}
+.my-img:hover{
+    transform: scale(1.1);
+}
+.btn-light:hover{
+    background: black;
+    border: none;
+    color: rgb(229, 194, 0);
+    border: rgb(229, 194, 0) ;
+
+}
+.btn-secondary{
+    /* background: rgb(229, 194, 0); */
+    background: transparent;
+    border: 1px solid rgb(229, 194, 0);
+    color: rgb(255, 194, 0);
+
+}
+.btn-secondary:hover{
+    background: #fff;
+    border:1px solid rgb(255, 255, 255);
+    color: #000;
+}
+span{
+    color: rgb(229, 194, 0);
+    /* font-weight: bold; */
+}
+p{
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+.pathway {
+    position: relative;
+    height: 50px; 
+    margin: 0 auto; 
+  }
+  
+  .pathway::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: transparent; 
+    border-left: 2px dotted #d3d3d3; 
+  }
+  
+  
+  .icon-bg {
+    display: inline-block;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  
+
+  .bi {
+    font-size: 20px;
+    line-height: 40px; 
+  }
+    .card {
+      transition: transform 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: scale(1.05); 
+    }
+
+    .contact-form {
+        max-width: 600px;
+        margin: auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      .form-control:focus {
+        border-color: #3b82f6; 
+        box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.25); 
+      }
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+a:visited, 
+a:hover,
+a:active,
+a:focus {
+    color: #fff; 
+    text-decoration: none;
+}
+.social-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.social-icons a {
+  display: block;
+  margin: 5px 0;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  color: #ddd;
+}
